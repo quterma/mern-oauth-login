@@ -12,9 +12,6 @@ const LoginPage: React.FC = () => {
       <button className={styles.button} onClick={() => handleLogin("google")}>
         Login with Google
       </button>
-      <button className={styles.button} onClick={() => handleLogin("github")}>
-        Login with GitHub
-      </button>
     </div>
   );
 };
